@@ -12,6 +12,7 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </head>
 <body>
+    <div class="container">
     <h1>testing tables</h1>
     <table class="table table-striped">
         <tr>
@@ -22,27 +23,88 @@
         <tr>
             <td>jquery</td>
             <td>jquery</td>
-            <td>40,988</td>
+            <td>
+                <span class="badge">40,988</span>
+            </td>
         </tr>
         <tr>
             <td>angular</td>
             <td>angular</td>
-            <td>14,959</td>
+            <td>
+                <span class="badge">14,959</span>
+            </td>
         </tr>
         <tr>
             <td>js-data</td>
             <td>js-data</td>
-            <td>1013</td>
+            <td>
+                <span class="badge">1,013</span>
+            </td>
         </tr>
         <tr>
             <td>monaco-editor</td>
             <td>microsoft</td>
-            <td>2851</td>
+            <td>
+                <span class="badge">2,851</span>
+            </td>
 
         </tr>
         <tr>
-            <th>
-</table>
+    </table>
+<h3>Repository Popularity based on star count</h3>
+<label>jquery</label>
+<div class="progress">
+  <div class="progress-bar progress-bar-success" role="progressbar" style="min-width: 80%;">
+    40,988
+  </div>
+</div>
+<label>angular</label>
+<div class="progress">
+  <div class="progress-bar progress-bar-success" role="progressbar" style="min-width: 60%;">
+    14,959
+  </div>
+</div>
+<label>js-data</label>
+<div class="progress">
+  <div class="progress-bar progress-bar-success" role="progressbar" style="min-width: 30%;">
+    1,013
+  </div>
+</div>
+<label>monaco-editor</label>
+<div class="progress">
+  <div class="progress-bar progress-bar-success" role="progressbar" style="min-width: 50%;">
+    2,851
+  </div>
+</div>
 
+<ul class="list-group">
+  <li class="list-group-item">
+    <span class="label label-success pull-right">TRENDING</span>
+    jquery
+  </li>
+</ul>
+
+<ul class="list-group">
+  <li class="list-group-item">
+    <span class="label label-primary pull-right">POPULAR</span>
+    angular
+  </li>
+</ul>
+
+<ul class="list-group">
+  <li class="list-group-item">
+    <span class="label label-info pull-right">SEMI-POPULAR</span>
+    js-data
+  </li>
+</ul>
+
+<ul class="list-group">
+  <li class="list-group-item">
+    <span class="label label-warning pull-right">UNKONWN</span>
+    monaco-editor
+  </li>
+</ul>
+
+</div>
 </body>
 </html>
